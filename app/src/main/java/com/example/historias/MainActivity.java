@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
         WebView.getSettings().setDomStorageEnabled(true);
         WebView.getSettings().setJavaScriptEnabled(true);
         webSettings.setJavaScriptEnabled(true);
-
-
-        WebView.loadUrl("http://185.254.204.145/");
-//webView.loadUrl("http://185.254.206.236/");
         WebView.setWebViewClient(new WebViewClient());
+
+        WebView.loadUrl("http://185.254.206.16/");
+//webView.loadUrl("http://185.254.206.236/");
+
 
 
     }
