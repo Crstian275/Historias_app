@@ -18,6 +18,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 //codigo que va a ejecutarse pasar un tiempo
+                //hola
                 Intent i = new Intent(SplashActivity.this, MainActivity.class);
                 startActivity(i);
                 finish();
