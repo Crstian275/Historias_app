@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="150dp"
         android:fontFamily="serif"
-        android:text="Historias De Terror"
+        android:text="@string/historias_d_terror"
         android:textAllCaps="true"
         android:textColor="#FFEB3B"
         android:textSize="36sp"
